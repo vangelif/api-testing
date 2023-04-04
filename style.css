@@ -1,9 +1,29 @@
-/* * {
-  background-color: lightcoral;
-} */
 body {
   background-color: lightseagreen;
   font-size: 25px;
   text-align: center;
+}
+
+/* section {
+  margin: 0 auto;
+} */
+
+section > div {
+  width: 100%;
+}
+
+.pokeCard {
+  border-bottom: 5px solid lightpink;
+  padding-inline: 5% 5%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+  width: 60%;
+  /* border-radius: 10px; */
+}
+
+.pokeCard > p > img {
+  padding-inline: 10% 10%;
+  padding-block: 10% 10%;
+  /* margin: 0 auto; */
 }
 
